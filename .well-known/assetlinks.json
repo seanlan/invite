@@ -42,5 +42,53 @@
     "sha256_cert_fingerprints":
     ["47:FD:3C:0F:1A:B6:66:EC:A6:9D:7A:52:1F:C1:A4:CD:50:AC:EC:79:EB:8A:23:F8:07:A6:4A:6F:CA:31:19:BF"]
   }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "chat.forkstar",
+      "sha256_cert_fingerprints": [
+        "F6:48:A5:6D:1F:55:F4:C1:14:ED:32:8B:DE:C2:82:EA:9D:58:99:E9:E6:00:7F:1E:72:C4:04:E5:36:B9:A0:17"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.forkstar.messenger",
+      "sha256_cert_fingerprints": [
+        "F6:48:A5:6D:1F:55:F4:C1:14:ED:32:8B:DE:C2:82:EA:9D:58:99:E9:E6:00:7F:1E:72:C4:04:E5:36:B9:A0:17"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "chat.forkstar.beta",
+      "sha256_cert_fingerprints": [
+        "F6:48:A5:6D:1F:55:F4:C1:14:ED:32:8B:DE:C2:82:EA:9D:58:99:E9:E6:00:7F:1E:72:C4:04:E5:36:B9:A0:17"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.forkstar.messenger.beta",
+      "sha256_cert_fingerprints": [
+        "F6:48:A5:6D:1F:55:F4:C1:14:ED:32:8B:DE:C2:82:EA:9D:58:99:E9:E6:00:7F:1E:72:C4:04:E5:36:B9:A0:17"
+      ]
+    }
   }
 ]
