@@ -28,7 +28,7 @@ Object.entries(require('fs').readdirSync(require('path').join(__dirname, 'i18n')
 
     it('localizes description', () => expect(page.locator('meta[name="description"]')).toHaveAttribute('content', t('DescriptionText')));
 
-    it('localizes logo', () => expect(page.locator('.logo-text')).toHaveText('Delta Chat'));
+    it('localizes logo', () => expect(page.locator('.logo-text')).toHaveText('ForkStar'));
 
     context('without info', () => {
 
